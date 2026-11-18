@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# 虚拟环境
+.venv/
+venv/
+env/
+ENV/
+
+# 测试与类型检查缓存
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyright/
+
+# IDE / 编辑器
+.vscode/
+.idea/
+*.swp
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# 日志与临时文件
+*.log
+*.tmp
