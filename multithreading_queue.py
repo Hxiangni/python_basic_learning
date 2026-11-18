@@ -6,7 +6,9 @@ from typing import Generic, TypeVar
 # T类型占位符
 T = TypeVar("T")
 
-
+'''
+手搓了一个多线程安全的队列
+'''
 class MyQueue(Generic[T]):
     """线程安全的阻塞式 FIFO 队列（带条件变量，行为对齐 queue.Queue）"""
 
